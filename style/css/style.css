@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
    padding: 0;
    margin: 0; 
+  
 }
 body{
     background-color: rgb(50, 179, 223);
@@ -62,30 +64,6 @@ nav a:hover, .active{
     font-size: 20px;
     
 }
-.main .text a{
-    color: white;
-}
-
-
-
-
-
-footer .cr{
-    float: left;
-    justify-content: left;
-    
-}
-footer .address{
-    margin: auto;
-    width: 25%;
-    padding: auto;
-}
-footer .socialid{
-    float: right;
-    overflow: auto;
-}
-
-
 
 .login{
     background-color: white;
@@ -113,3 +91,20 @@ footer .socialid{
     color: white;
     
 }
+.container{
+    max-width: 1178px;
+    background-color:red;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+ul {
+    list-style: none;
+}
+.footer{
+    background-color: #0e52ff;
+    padding: 70px 0;
+}
+

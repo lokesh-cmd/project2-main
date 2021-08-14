@@ -2,7 +2,7 @@
 session_start();
 include("management/config.php");
 include("management/function.php");
- 
+
 
 $userData = check_login($con);
 
@@ -17,6 +17,7 @@ $userData = check_login($con);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     <header>
@@ -57,28 +58,34 @@ $userData = check_login($con);
             <a href="contact.php">Get in touch today</a>
         </div>
         
-
-
-
-
-
     </div>
+            
 
-    <footer>
-        <div class="cr">
-            <a href="#">Copyright Info</a>
-        </div>
-        <div class="address">
-            Nicholas Street, Keysborough, Victoria 3171 <br>
-            <a href="mailto:Careergroaustralia@gmail.com">Careergroaustralia@gmail.com</a> <br>
-            Office No. <a href="tel:+61 4315 316 97">+61 4315 316 97</a>
-        </div>
-        <div class="socialid">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-        </div>
-    </footer>
+    <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 
+  </footer>
         
 </body>
 </html>
