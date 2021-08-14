@@ -65,15 +65,27 @@ $userData = check_login($con);
   	 <div class="container">
   	 	<div class="row">
   	 		<div class="footer-col">
-  	 			<h4>company</h4>
+  	 			<h4>CarrerGro Australia</h4>
   	 			<ul>
-  	 				<li><a href="#">about us</a></li>
-  	 				<li><a href="#">our services</a></li>
-  	 				<li><a href="#">privacy policy</a></li>
-  	 				<li><a href="#">affiliate program</a></li>
+                   <li><a href="index.php">home</a></li>
+  	 				<li><a href="about.php">about us</a></li>
+  	 				<li><a href="ea">educational agent</a></li>
+  	 				<li><a href="ae"> Australian education</a></li>
+  	 				<li><a href="contact"> contact</a></li>
   	 			</ul>
   	 		</div>
   	 		
+               <div class="footer-touch">
+  	 			<h4>Get in touch with us</h4>
+  	 			<ul>
+                   <li>Career Gro Australia</li>
+  	 				<li>1 Nicolas Street, Keysborough, VIC 3713, Australia.</li>
+  	 				<li>0431 531 697</li>
+  	 				<li> Australian education</li>
+  	 				<li>careergroaustralia@gmail.com</li>
+  	 			</ul>
+  	 		</div>
+
   	 		<div class="footer-col">
   	 			<h4>follow us</h4>
   	 			<div class="social-links">
@@ -84,6 +96,9 @@ $userData = check_login($con);
   	 			</div>
   	 		</div>
   	 	</div>
+           <div class="footer-copy">
+            <a href="#">Copyright Info</a>
+        </div>
   	 
   </footer>
         
